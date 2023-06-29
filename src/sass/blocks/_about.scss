@@ -24,7 +24,6 @@
     padding-top: 6px;
     .divider {
       margin: 0px;
-
     }
   }
   &__text {
@@ -44,17 +43,17 @@
       column-gap: 20px;
     }
     &-circle {
-    position: relative;
-    padding: 15px 0 0 15px;
-    @include before_circle;
-    &:before {
+      position: relative;
+      padding: 15px 0 0 15px;
+      @include before_circle;
+      &:before {
         top: 0;
-    }
+      }
     }
     &-text {
-        margin-top: 6px;
-        font-size: 12px;
-        line-height: 18px;
+      margin-top: 6px;
+      font-size: 12px;
+      line-height: 18px;
     }
   }
 }

@@ -11,3 +11,11 @@ closeElem.addEventListener('click', () => {
 });
 
 
+const counters = document.querySelectorAll('.skills__progress-percent'),
+      lines = document.querySelectorAll('.skills__progress-subline');
+
+counters.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
+
+
